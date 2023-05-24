@@ -21,6 +21,6 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/NewBingGoGo-Web-docker:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/nbgogo-web-docker:latest
         env:
           PORT: 80
